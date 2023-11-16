@@ -55,3 +55,43 @@ header {
 }
 
 /* ==============Header section ends============== */
+
+/* ==============Services section starts============== */
+
+#services-container {
+    margin: 100px 0;
+}
+
+#services-container h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.serices-carts {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.cart1 {
+    width: 30%;
+    background: rgba(255, 166, 0, 0.11);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cart-img {
+    width: 30%;
+}
+
+.cart1 img {
+    width: 100%;
+}
+
+.cart-txt {
+    width: 70%;
+    margin: 5px 0 0 10px;
+}
+
+/* ==============Services section ends============== */
