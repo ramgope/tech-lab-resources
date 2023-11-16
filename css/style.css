@@ -95,3 +95,59 @@ header {
 }
 
 /* ==============Services section ends============== */
+
+/* ==============Products section starts============== */
+.products-container {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.products-container h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.laptop-section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.laptop-section h4 {
+    margin: 20px 0;
+}
+
+.laptop-boxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.laptop-box1 {
+    width: 30%;
+    text-align: center;
+    box-shadow: 10px 10px 20px grey;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.laptop-box1 img {
+    width: 100%;
+}
+
+.laptop-txt {
+    transition: all linear 0.4s;
+}
+
+/* ==============Products section ends============== */
+
+/* ==============Footer section starts============== */
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+}
+
+/* ==============Footer section ends============== */
