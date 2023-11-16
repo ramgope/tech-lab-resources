@@ -24,6 +24,32 @@ header {
     width: 50%;
 }
 
+.orange-text {
+    color: orange;
+}
+
+.header-left p {
+    margin: 20px 0;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    color: white;
+    background: linear-gradient(45deg, orangered, orange);
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    transition: all linear 0.4s;
+}
+
+.btn:hover {
+    background: none;
+    color: orange;
+    border: 1px solid orange;
+}
+
 .header-right {
     width: 50%;
 }
